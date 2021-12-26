@@ -1,6 +1,3 @@
-* {
-    border: 2px solid red;
-  }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -13,6 +10,7 @@ body {
 .header{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   background-color: #1f2937;
   padding: 8px;
   align-items: center;
@@ -22,6 +20,7 @@ body {
 
 .logo{
   font-size: 20px;
+  font-weight: 900;
   color: whitesmoke;
 }
 
@@ -30,13 +29,16 @@ body {
     display: flex;
     justify-content: center;
     padding: 32px;
-    align-items: center;
     align-content:space-around;
+    align-items: center;
+    gap: 32px;
 }
 
-.upper-container{
-
+.img-one{
+    border: #0666ec;
+    border-radius: 30px;
 }
+
 .title{
     color: #F9FAF8;
     font-size: 48px;
@@ -44,19 +46,27 @@ body {
 }
 
 .subtitle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 500px;
     color: #E5E7EB;
     font-size: 18px;
+
 }
 
 button{
-    weight : 30px;
-    height: 30px;
+    weight :25px;
+    height: 25px;
     border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #3882f6;
     color: white;
-    font-style: bold;
-    gap: 30px;
+    font-weight: 900;
+    border: black;
 }
 
 ul {
@@ -72,6 +82,10 @@ ul {
 a{
     color: whitesmoke;
     text-decoration: none;
+}
+
+.mid{
+
 }
 
 
