@@ -34,9 +34,10 @@ body {
     gap: 32px;
 }
 
-.img-one{
-    border: #0666ec;
+.img-one {
+   
     border-radius: 30px;
+
 }
 
 .title{
@@ -78,14 +79,110 @@ ul {
 }
 
 
-
 a{
     color: whitesmoke;
     text-decoration: none;
 }
 
 .mid{
+    display: flex;
+    justify-content: space-around;
 
 }
 
+.mid-title{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
 
+.mid-container{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+
+
+.cover-album{
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.mid-sub{
+    margin: auto;
+    align-self: center;
+    max-width: 200px;
+    color: rgba(128, 128, 128, 0.548);
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.playlist-section{  
+    color: whitesmoke;
+    font-weight: 900;
+    text-align: center;
+    font-size: 36px;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+.playlist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sing-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  flex-grow: 1;
+}
+.sing-container{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+.title-content{
+    margin-top: 10px;
+    color: #F9FAF8;
+    font-weight: 900;    
+    margin-left: 10px;
+}
+
+.sub-contet{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 500px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sing{
+    margin-left: 80px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 30px;
+}
+
+.git{
+    width: 50px;
+}
